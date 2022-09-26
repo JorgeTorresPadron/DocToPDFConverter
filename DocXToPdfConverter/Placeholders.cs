@@ -1,4 +1,7 @@
-﻿/* Net-Core-DocX-HTML-To-PDF-Converter
+﻿using System.Collections.Generic;
+using System.IO;
+
+/* Net-Core-DocX-HTML-To-PDF-Converter
  * https://github.com/smartinmedia/Net-Core-DocX-HTML-To-PDF-Converter
  *
  *
@@ -9,17 +12,10 @@
  *
  */
 
-
-using System.Collections.Generic;
-using System.IO;
-
-
 namespace DocXToPdfConverter
 {
-
     public class Placeholders
     {
-
         public Placeholders()
         {
             NewLineTag = "<br/>";
